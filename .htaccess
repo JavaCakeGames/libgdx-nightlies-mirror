@@ -1,0 +1,10 @@
+Options +Indexes
+IndexIgnore gdx-setup_1.11.0.jar
+IndexIgnore README.html
+IndexIgnore ..
+AddDescription "Nightly build; <a noopener noreferrer href=\"gdx-setup_1.11.0.jar\">Stable available here</a>" gdx-setup.jar
+AddDescription "If runnables don't open, try Java 8" runnable-2D-particles.jar
+
+<Files "cron.sh">
+        Require all denied
+</Files>
